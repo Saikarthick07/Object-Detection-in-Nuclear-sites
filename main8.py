@@ -3,7 +3,7 @@ import supervision as sv
 from ultralytics import YOLO
 
 # Load your trained YOLOv10 model
-model = YOLO('/Users/saikarthick/Documents/ObjectDetectionProject/best-2.pt')  # Replace 'best.pt' with the actual path to your model file
+model = YOLO('best-2.pt')  # Replace 'best-2.pt' with the actual path to your model file
 
 # Define class names (adjust if needed)
 class_names = ["base", "max", "min", "tip", "background"]
